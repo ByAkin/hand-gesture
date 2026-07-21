@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glass Frame — Hand Tracking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>GLASS FRAME — form a rectangle with both hands to summon it</h1>
+
+  <main id="stage">
+    <video id="video" playsinline muted autoplay></video>
+    <canvas id="videoCanvas"></canvas>
+    <canvas id="skeletonCanvas"></canvas>
+
+    <div id="glassRect">
+      <div id="glassCoreA" class="glassCore active">
+        <canvas class="grainLayer"></canvas>
+      </div>
+      <div id="glassCoreB" class="glassCore">
+        <canvas class="grainLayer"></canvas>
+      </div>
+    </div>
+
+    <div id="filterLabel">Lapis</div>
+
+    <div id="info">
+      <div id="status">Not started</div>
+      <div id="fps">FPS: 0</div>
+    </div>
+  </main>
+
+  <button id="startBtn" type="button">Start camera</button>
+  <div id="errorBox" role="alert"></div>
+  <p id="hint">Two hands, both pinching: move hands apart to widen, open either pinch wider to grow height, tilt the pair to rotate. One hand, pinching, swiped left/right: cycles the glass filter.</p>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
