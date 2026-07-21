@@ -1,5 +1,8 @@
 # Glass Gesture Engine Lite
 
+Version: 1.0.0
+Latest Release: Lite
+
 A browser-based, camera-driven "liquid glass" panel that you summon and shape with your bare hands — no mouse, no touch, no controllers. Frame a rectangle between both hands to conjure a frosted-glass surface, then pinch-swipe with one hand to cycle through a set of tinted glass filters.
 
 Built on [MediaPipe Hand Landmarker](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) for real-time hand tracking, entirely client-side — nothing is uploaded, nothing is installed.
