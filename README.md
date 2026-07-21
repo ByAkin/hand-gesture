@@ -95,11 +95,6 @@ Glass-Gesture-Engine-Lite/
 ├── CHANGELOG.md            # Version history (Semantic Versioning)
 ├── .gitignore               # Standard ignores for JS/static projects
 │
-├── assets/
-│   ├── icons/               # (reserved for future UI icons)
-│   ├── images/               # (reserved for future imagery)
-│   └── fonts/                 # (reserved for future custom fonts)
-│
 └── docs/
     ├── Installation.md        # Extended setup instructions
     ├── Controls.md              # Full gesture reference
